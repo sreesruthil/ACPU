@@ -1,0 +1,28 @@
+@charset "utf-8";
+#logopu {
+	height: 120px;
+	width: 120px;
+	margin:10px 10px 10px 20px
+}
+#logoacpu {
+	height: 120px;
+	width: 120px;
+	margin:-150px 10px 10px 840px 
+}
+#searchbutton{
+	height:20px;
+	width:400px;
+	margin:10px 10px 10px 840px;
+		
+}
+#heading {
+	height: 120px;
+	width: 640px;
+	margin: -120px 10px 10px 170px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+}

@@ -1,0 +1,29 @@
+
+#contactnote{
+	width:75%;
+	height:310px;
+	/*position:relative;*/
+	padding:25px;
+	margin:0 auto;
+	top:0px;
+	background-color:#fff;
+
+	/*border: 5px solid #FF0000;*/
+	font-family: "Trebuchet MS";
+	/*line-height: 150%;*/
+	
+}
+#contactnote h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+#contactnote h4 {
+	color: #000080;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+

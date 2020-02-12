@@ -1,0 +1,17 @@
+ul.meeting_agenda{
+	padding-left:30px;
+	list-style:none;
+	
+	
+}
+ul.meeting_agenda li.agenda_item{
+	font-size:20px;
+	background-color: #eaecee ;
+	padding:8px 8px 8px 10px;
+	color:#31302B;
+	
+	
+}
+ul.meeting_agenda li.agenda_item p.agenda_desc{ 
+	font-size:30px;
+}

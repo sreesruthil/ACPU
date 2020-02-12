@@ -1,0 +1,20 @@
+ul.our_assets{
+	padding-left:30px;
+	list-style:none;
+	
+	
+}
+ul.our_assets li.asset_item{
+	font-size:20px;
+	background-color: #eaecee ;
+	padding:8px 8px 8px 10px;
+	color:#31302B;
+	
+	
+}
+ul.our_assets li.asset_item p.asset_desc{ 
+	font-size:10px;
+	padding:20px;
+
+
+}

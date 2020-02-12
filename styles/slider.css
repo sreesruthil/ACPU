@@ -1,0 +1,123 @@
+@charset "utf-8";
+#sliderbox {
+	height: 300px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	z-index: 50;
+}
+#outslider {
+	width: 520px;
+	height: 300px;
+	display: block;
+	position: absolute;
+	-webkit-box-shadow: 0 0 1px 1px #CCC;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+#slider {
+	widows: 600px;
+	height: 300px;
+	position: absolute;
+	display: block;
+}
+#next {
+	background-image:url(../Images/rightarrow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: right;
+	height: 100%;
+	width: 30px;
+	position: relative;
+	z-index: 50;
+	cursor: pointer;
+	margin-top: 250px;
+	margin-bottom: 250px;
+	bottom: 250px;
+	clip: rect(auto,auto,auto,auto);
+	visibility: visible;
+}
+#previous {
+	background-image: url(../Images/leftarrow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: left;
+	height: 100%;
+	width: 60px;
+	position: relative;
+	z-index: 50;
+	cursor: pointer;
+	margin-top: 250px;
+	margin-bottom: 250px;
+	bottom: 250px;
+}
+.description {
+	width: 510px;
+	height: 91px;
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	background-color:#000;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	color:#FFF;
+	margin-left: 0px;
+	visibility: visible;
+	margin-top: 200px;
+	padding:5px;
+	text-decoration: none;
+}
+
+#descontent{
+	font-size: 15px;	
+	text-decoration: none;
+}
+	
+#pager {
+	width: 100%;
+	text-align: right;
+	display: block;
+	position: absolute;
+	z-index: 50;
+	bottom: 10px;
+
+}
+#pager a {
+	width:10px;
+	height:10px;
+	display:inline-block;
+	position:relative;
+	background-color:#b5075a;
+	border: 1px solid #000;
+	margin:0px 10px;
+	border-radius:20px;
+	font-size:.0em;
+	color:transparent;
+}
+#pager a.activeSlide {
+	background-color:#FFF;
+}
+#noticearea {
+	height: 300px;
+	width: 250px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	float: right;
+}#newsarea {
+	height: 300px;
+	width: 280px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	float: right;
+}

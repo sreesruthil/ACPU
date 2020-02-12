@@ -1,0 +1,125 @@
+﻿/* My additions******/
+
+#event_wrapper{
+	width:50px;
+	position:absolute;
+	top:100px;
+	left:200px;
+	/* border: 5px solid #FF0000;  */
+}
+#event_name {
+	width:500px;
+	/* border: 5px solid #FF0000; */
+	color: #31302B;
+    background: #FFF;
+    border-bottom:3px solid #e0e0e0;
+	font-family: 'OpenSansBold', sans-serif;
+    /* font-size: 30px; */
+    padding: 10px 20px 10px 20px;
+    /* margin: 20px 100px 20px 100px; */
+    display: inline-block;
+	box-shadow: inset 0 0 0 0 #31302B;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+#event_name:hover {
+  /* background: #00a651; */
+  /* color: #ffffff; */
+   box-shadow: inset  0 -100px 0 0 #e0e0e0;
+    color:  #f90b7a
+;
+	
+}
+
+
+
+.tooltip {
+    display:inline-block;
+    position:relative;
+    text-align:left;
+	padding:10px;
+	font-family: "Trebuchet MS";
+}
+.tooltp:hover{
+	background-color:green;
+}
+div.tooltip > div:nth-of-type(odd) {
+    background: #e0e0e0;
+}
+
+
+.tooltip h3 {margin:12px 0; padding-left:0;}
+
+.tooltip .right_tooltip {
+    /* min-width:200px; */
+    width:500px;
+    top:50%;
+    left:70%;
+    margin-left:10px;
+    transform:translate(0, -50%);
+    padding:10px 10px 10px 15px;
+    color: #eaecee ;
+    background-color: #eaecee ;
+    font-weight:normal;
+    font-size:14px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+
+.tooltip:hover .right_tooltip {
+    visibility:visible; opacity:1;
+	width:530px;
+}
+
+.tooltip .right_tooltip img {
+    /* width:400px; */
+    border-radius:8px 8px 0 0;
+}
+.tooltip .text-content {
+	width:470px;
+    /* padding:10px 10px 10px 30px; */
+	color:  #17202a  ;
+	text-align:justify;
+	font-family: "Trebuchet MS";
+	line-height: 1.25;
+	font-size:14px;
+}
+
+.tooltip .right_tooltip i {
+    position:absolute;
+    top:50%;
+    right:100%;
+    margin-top:-12px;
+    width:12px;
+    height:24px;
+    overflow:hidden;
+}
+.tooltip .right_tooltip i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:0;
+    top:50%;
+    transform:translate(50%,-50%) rotate(-45deg);
+    background-color:#444444;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+li.event_details{
+	position:relative;
+	left:10px;
+	padding-left:0px;
+}
+ul.event_list{
+	list-style:none;
+}
+ul.event_desc{
+	padding-left:10px;
+}
+
+/* li { content: "- "; color: red; font-size: 36px; } */
